@@ -1,0 +1,147 @@
+body.index {
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#logo {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}  
+@font-face {
+    font-family: "Times New Roman";
+    src: url('fuentes/Times New Roman.ttf');
+    }
+#titulo {
+    color: #FFFFFF;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+#poster {
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url('fuentes/Helvetica.ttf');
+    }
+body.formulario {
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Helvetica";
+    color: #FFFFFF;
+    font-size: 20px;
+}
+input, select, option, textarea {
+    font-family: "Helvetica";
+    font-size: 20px;
+}
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh; 
+}
+.bold {
+    font-weight: bold;
+}
+body.tabla {
+    background: #0C3E11;
+    font-family: "Helvetica";
+    text-align: center;
+}
+#cabecera {
+    width: 700px;
+    height: 275px;
+    margin: auto;
+    display: block;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px;
+}
+td {
+    border: 10px solid #000000;
+    text-align: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle; 
+    padding-top: 0;
+    overflow: hidden;   
+}
+td img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; 
+}
+td span {
+    font-size: 50px;
+    font-weight: bold;
+}
+td p {
+    font-size: 8px;
+} 
+#hank {
+    position: relative;
+    width: 100px;
+    height: 100px;   
+}
+#hank img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+}
+#negro {
+    background: #000000;
+}
+#gris {
+    background: #BFBFBF;
+}
+#blanco {
+    background: #e6ffe6;
+}
+#violeta {
+    background: #bb99ff;
+}
+#verde {
+    background: #5CD65C;
+}
+#verdeclaro {
+    background: #99FF99;
+}
+#verdemuyclaro {
+    background: #CCFF99;
+}
+#verdeoliva {
+    background: #77B300;
+}
+#verdeolivaoscuro {
+    background: #45874a;
+}
+#verdeolivaclaro {
+    background: #8BA343;
+}
+#verdepistacho {
+    background: #CCCC00;
+    margin-top: 20px;
+    border-spacing: 20px;
+}
